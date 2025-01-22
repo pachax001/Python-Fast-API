@@ -1,0 +1,9 @@
+services:
+  fastapi_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8088:8088"  # Map host port 8088 to container port 8088
+    restart: always  # Ensures the container restarts after a reboot or failure
+    container_name: fastapi_container

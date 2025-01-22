@@ -1,0 +1,14 @@
+# vscode
+.vscode
+
+# python cache
+__pycache__/
+
+#venv
+venv/
+
+# logs
+log.txt
+
+# config.env
+config.env
