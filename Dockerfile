@@ -6,7 +6,7 @@ FROM python:3.14.0a4-alpine3.21
 WORKDIR /app
 
 # Install system dependencies and dependencies for FastAPI
-RUN apk add --no-cache gcc musl-dev libffi-dev build-base
+RUN apk add --no-cache gcc musl-dev libffi-dev build-base rust cargo
 
 # Copy the project files
 COPY . .
