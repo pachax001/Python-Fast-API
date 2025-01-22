@@ -1,5 +1,6 @@
 # Use a lightweight Python image (Alpine Linux)
-FROM python:3.14.0a4-alpine3.21
+FROM python:3.12.8-alpine3.20
+
 
 
 # Set the working directory inside the container
